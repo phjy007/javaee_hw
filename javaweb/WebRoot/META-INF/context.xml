@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/javaweb">
+<!-- Resource
+	name="jdbc/MySqlDS"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/sample"
+	username="jw1234"
+	password="1234"
+	maxActive="20"
+	maxIdel="10"
+	maxWait="-1" /-->
+<Resource
+	name="jdbc/MySqlDS"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://10.12.8.28:3306/jw1201024"
+	username="jw1201024"
+	password="281729"
+	maxActive="20"
+	maxIdel="10"
+	maxWait="-1" />
+</Context>

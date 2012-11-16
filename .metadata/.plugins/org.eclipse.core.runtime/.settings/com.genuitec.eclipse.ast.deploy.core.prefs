@@ -1,0 +1,12 @@
+#Thu Nov 15 22:19:20 CST 2012
+myeclipseTomcatServer.javaweb.deployIsOverProject=false
+myeclipseTomcatServer.javaweb.earProjectName=
+myeclipseTomcatServer.javaweb.shouldBackup=false
+myeclipseTomcatServer.javaweb.isExploded=true
+myeclipseTomcatServer.javaweb.contextRoot=/javaweb
+myeclipseTomcatServer.javaweb.isUptoDate=true
+myeclipseTomcatServer.javaweb.isDeployed=true
+eclipse.preferences.version=1
+myeclipseTomcatServer.javaweb.type=WebDeployment
+myeclipseTomcatServer.javaweb.shouldOverwrite=false
+myeclipseTomcatServer.javaweb.deploymentPath=E\:\\stduy\\Web\u8F6F\u4EF6\u5F00\u53D1\u6280\u672F\\JavaEE\\workspace\\.metadata\\.plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse\\tomcat\\webapps\\javaweb
