@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="GB2312"%>
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>银行数字转换</title>
+    <title>Calculate</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -22,11 +22,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   </head>
   
-  <body>
-    <h3>输入阿拉伯数字</h3>
-    <form action="./lab03/convert.jsp" method="GET">
-    	<input name="number" type="text" value="" size="13" />
-	  	<input type="submit" value="提交">
-    </form>
-  </body>
+ 	<body>
+		<% 
+			String num = request.getParameter(&quot;input_number&quot;); 
+			int product = Integer.parseInt(num) * Integer.parseInt(num); 
+		%>
+		<jsp:forward page="./output.jsp">
+			<jsp:param name="number_input" value="<%=num%>"/>
+			<jsp:param name="product" value="<%=product%>"/>
+		</jsp:forward>
+		
+	<br></body>
 </html>

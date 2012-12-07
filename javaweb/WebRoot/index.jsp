@@ -102,33 +102,57 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<td><a href="./lab02/travel.jsp">旅游费用查询</a></td>
 		<td><a href="./ReadScode?lab=lab02&file=travel.jsp">travel.jsp</a></td>
 	</tr>
+	
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">第三次实验</td></tr>
+	<tr>
+		<td><a href="./lab03/input.jsp">阿拉伯数字转换器</a></td>
+		<td><a href="./ReadScode?lab=lab03&file=input.jsp">input.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=convert.jsp">convert.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Convert.java">Convert.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=convertTag.tld">convertTag.tld</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab03/guessnum.jsp">猜数字</a></td>
+		<td><a href="./ReadScode?lab=lab03&file=guessnum.jsp">guessnum.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Control.java">Control.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Guessnum.java">Guessnum.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=answer_judge.jsp">answer_judge.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=MVC Design Report.txt">MVC设计文档.txt</a></td>
+	</tr>
+	
+	<tr>
+		<td><a href="./lab03/ShoppingIndex.jsp">购物车</a></td>
+		<td><a href="./ReadScode?lab=lab03&file=ShoppingIndex.jsp">ShoppingIndex.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=MyCart.jsp">MyCart.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Settlement.jsp">Settlement.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=goodsItem.java">goodsItem.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=MyCart.java">MyCart.java</a></td>
+	</tr>
+	
 	</table>
   </form>
   	
-  	
-  		<!--div class="exp_tilte">
-  			<b>第一次实验</b>
-  		</div>
-  		<div class="source_title">
-  			链接
-  		</div>
-  		<div class="items">
-  			<a href="./lab01/first">firstservlet</a>
-  		</div>
-  		<div class="items">
-  			<a href="./lab01/login.html">login</a>
-  		</div>
-  		<div class="source_title">
-  			源程序
-  		</div>
-  		<div class="items">
-  			<a href="/javaweb/ReadScode">FirstServlet.java</a>
-  		</div>
-  		<div class="items">
-  			<a href="/javaweb/ReadScode">login.html</a>
-  		</div>
-  		<div class="items">
-  			<a href="/javaweb/ReadScode">GetPostData.java</a>
-  		</div-->
   </body>
 </html>

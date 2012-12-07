@@ -55,11 +55,18 @@ public class ReadScode extends HttpServlet {
   			if(fileType.equalsIgnoreCase("java")) {
   				String filepath = "./scode/src/" + lab + "/com/servlet/" + filename;
   				response.sendRedirect(filepath);
-  			} else if(fileType.equalsIgnoreCase("html") || fileType.equalsIgnoreCase(".jsp")) {
+  			} else if(fileType.equalsIgnoreCase("html") || fileType.equalsIgnoreCase(".jsp") 
+  						|| fileType.equalsIgnoreCase(".txt") || fileType.equalsIgnoreCase(".tld")) {
   				String filepath = "./scode/web/" + lab + "/" + filename;
   				if(fileType.equalsIgnoreCase(".jsp")) {
-  					filepath += "_";
-  				}
+  					filepath = filepath.replaceAll("jsp", "txt");
+  				} else if(fileType.equalsIgnoreCase("html"))  {
+//  					filepath = filepath.replaceAll("html", "txt");
+  				}  else if(fileType.equalsIgnoreCase(".txt"))  {
+//  					filepath = filepath.replaceAll("html", "txt");
+  				}  else if(fileType.equalsIgnoreCase(".tld"))  {
+  					filepath = filepath.replaceAll(".tld", ".png");
+  				} 
   				response.sendRedirect(filepath);
   			}
   		} else {

@@ -1,3 +1,4 @@
+
 <%@ page language="java" import="java.util.*" pageEncoding="GB2312"%>
 <%
 String path = request.getContextPath();
@@ -9,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>银行数字转换</title>
+    <title>My JSP 'output.jsp' starting page</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,10 +24,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <h3>输入阿拉伯数字</h3>
-    <form action="./lab03/convert.jsp" method="GET">
-    	<input name="number" type="text" value="" size="13" />
-	  	<input type="submit" value="提交">
-    </form>
+  	<h3><%=request.getParameter("number_input")%>的立方是：<%=request.getParameter("product")%></h3>
   </body>
 </html>
