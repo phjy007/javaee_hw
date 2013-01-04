@@ -1,0 +1,127 @@
+package project.com.control;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import project.com.model.Course;
+import project.com.service.SqlConn;
+
+public class refreshCourseServlet extends HttpServlet {
+
+	/**
+	 * Constructor of the object.
+	 */
+	public refreshCourseServlet() {
+		super();
+	}
+
+	/**
+	 * Destruction of the servlet. <br>
+	 */
+	public void destroy() {
+		super.destroy(); // Just puts "destroy" string in log
+		// Put your code here
+	}
+
+	/**
+	 * The doGet method of the servlet. <br>
+	 *
+	 * This method is called when a form has its tag value method equals to get.
+	 * 
+	 * @param request the request send by the client to the server
+	 * @param response the response send by the server to the client
+	 * @throws ServletException if an error occurred
+	 * @throws IOException if an error occurred
+	 */
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		HttpSession session = request.getSession();
+		
+//		String req_username = (String)request.getParameter("username");
+//		req_username = new String(req_username.getBytes("iso-8859-1"), "gb2312");
+//		String req_password = (String)request.getParameter("password");
+//		req_password = new String(req_password.getBytes("iso-8859-1"), "gb2312");
+//		System.out.println(req_username+"  "+req_password);
+		
+		SqlConn sqlconn = new SqlConn();
+		//int userid = -1;
+		
+		//String allusers = "select * from javaee_pj_user";
+		//ArrayList<User> users = sqlconn.allUsers(allusers);
+		
+		//int usertype = -1;
+		
+		String allcourses = "select * from javaee_pj_course";
+		ArrayList<Course> courses = sqlconn.allCourses(allcourses);
+		
+//		boolean logined = false;
+//		for(User u:users) {
+//			if(u.getUsername().equals(req_username) && u.getPassword().equals(req_password)) {
+//				logined = true;
+//				usertype = u.getUsertype();
+//				userid = u.getId();
+//				break;
+//			}
+//		}
+//		System.out.println(logined);	
+		
+		//if(logined) {
+			//session.setAttribute("logined", logined);
+			//session.setAttribute("username", req_username);
+			//session.setAttribute("usertype", usertype);
+			//session.setAttribute("userid", userid);
+			session.setAttribute("courses", courses);
+			response.sendRedirect("./showCourse.jsp");
+		//} else {
+			//session.setAttribute("logined", logined);
+			//response.sendRedirect("./login.jsp");
+		//}
+	}
+
+	/**
+	 * The doPost method of the servlet. <br>
+	 *
+	 * This method is called when a form has its tag value method equals to post.
+	 * 
+	 * @param request the request send by the client to the server
+	 * @param response the response send by the server to the client
+	 * @throws ServletException if an error occurred
+	 * @throws IOException if an error occurred
+	 */
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		out
+				.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">");
+		out.println("<HTML>");
+		out.println("  <HEAD><TITLE>A Servlet</TITLE></HEAD>");
+		out.println("  <BODY>");
+		out.print("    This is ");
+		out.print(this.getClass());
+		out.println(", using the POST method");
+		out.println("  </BODY>");
+		out.println("</HTML>");
+		out.flush();
+		out.close();
+	}
+
+	/**
+	 * Initialization of the servlet. <br>
+	 *
+	 * @throws ServletException if an error occurs
+	 */
+	public void init() throws ServletException {
+		// Put your code here
+	}
+
+}

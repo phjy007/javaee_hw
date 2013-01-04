@@ -1,0 +1,20 @@
+package project.com.model;
+
+public class Experiment {
+	private int id, expcourse_id;
+	private String expcontent;
+	
+	public Experiment() {}
+	public Experiment(int id , int expcourse_id, String expcontent) {
+		this.id = id;
+		this.expcourse_id = expcourse_id;
+		this.expcontent = expcontent;
+	}
+	
+	public int getId() {
+		return this.id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+}

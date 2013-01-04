@@ -1,0 +1,34 @@
+package project.com.model;
+
+public class Course {
+	private int id, teacher_id;
+	private String coursename;
+	
+	public Course(){}
+	public Course(int id, int teacher_id, String coursename) {
+		this.id = id;
+		this.teacher_id = teacher_id;
+		this.coursename = coursename;
+	}
+	
+	public int getId() {
+		return this.id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public int getTeacher_id() {
+		return this.teacher_id;
+	}
+	public void setTeacher_id(int teacher_id) {
+		this.teacher_id = teacher_id;
+	}
+	
+	public String getCoursename() {
+		return this.coursename;
+	}
+	public void setCoursename(String coursename) {
+		this.coursename = coursename;
+	}
+}

@@ -1,0 +1,92 @@
+<%@ page language="java" import="java.util.*,project.com.model.*,project.com.service.*;" pageEncoding="gb2312"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<%
+	SqlConn sqlbean = new SqlConn();
+	Integer usertype = (Integer)session.getAttribute("usertype");
+	Integer userid = (Integer)session.getAttribute("userid");
+	String page_s = (String)request.getParameter("page");
+	int pageNo = Integer.parseInt(page_s);
+%>
+<!-- Main -->
+		<div id="main">
+			<div class="cl">&nbsp;</div>
+			
+			<!-- Content -->
+			<div id="content">
+				
+				<!-- Box -->
+				<div class="box">
+					<!-- Box Head -->
+					<div class="box-head">
+						<h2 class="left">课程列表</h2>
+					</div>
+					<!-- End Box Head -->	
+
+					<!-- Table -->
+					<div class="table">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<th>编号</th>
+								<th>课程名称</th>
+								<th>任课教师</th>
+								<th>操作选项</th>
+							</tr>
+							<% String getAllCourses = "select * from javaee_pj_course";
+								ArrayList<Course> courses = sqlbean.allCourses(getAllCourses);
+								
+								String courseCountSQL = "select count(*) as num from javaee_pj_course";
+								Integer courseCount = sqlbean.getCount(courseCountSQL);
+								System.out.println("courseCount=" + courseCount);
+								for(Course c : courses) {%>
+								<tr>
+									<td><%=c.getId()%></td>
+									<td><%=c.getCoursename() %></td>
+									<%ArrayList<User> t = sqlbean.allUsers("select * from javaee_pj_user where id=" + c.getTeacher_id());
+									%>
+									<td><%=t.get(0).getUsername() %></td>
+									<%if(usertype == 1) {%>
+									<td><a href="./project/delCourseServlet?id=<%=c.getId() %>" class="ico del">删除</a>
+										
+									</td>
+									<%} else {%>
+									 <td> - 无 - </td>
+									<%} %>
+									
+								</tr>
+							<%} %>						
+						</table>
+						
+						
+						<!-- Pagging -->
+						<div class="pagging">
+							<div class="left">
+							<%if(usertype == 1) {%>
+							<a href="./project/addCourse.jsp">(+添加课程)</a>
+							<%} %>
+							&nbsp&nbsp&nbsp显示 1-12 of 44</div>
+							<div class="right">
+								<a href="#">前页</a>
+								<a href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">245</a>
+								<span>...</span>
+								<a href="#">后页</a>
+							</div>
+						</div>
+						<!-- End Pagging -->
+						
+					</div>
+					<!-- Table -->
+					
+				</div>
+				<!-- End Box -->
+				
+			
+			<div class="cl">&nbsp;</div>			
+		</div>
+		<!-- Main -->

@@ -1,0 +1,9 @@
+#login_title {
+	font-size: 26px;
+}
+#login_main {
+	width: 600px;
+}
+#login_submit {
+	background: blue;
+}

@@ -1,0 +1,10 @@
+#Fri Dec 28 02:08:07 CST 2012
+TOMCAT_HOME=E\:\\Stduy\\Web Java EE\\JavaEE\\tomcat
+TOMCAT_TEMP=E\:\\Stduy\\Web Java EE\\JavaEE\\tomcat\\temp
+LIBRARY_PATH="C\:\\Program Files\\Java\\jdk1.6.0_15\\bin;E\:\\Stduy\\Web Java EE\\JavaEE\\tomcat\\bin"
+TOMCAT_BASE=E\:\\Stduy\\Web Java EE\\JavaEE\\tomcat
+ENDORSED_DIRS="E\:\\Stduy\\Web Java EE\\JavaEE\\tomcat/common/endorsed"
+eclipse.preferences.version=1
+JDK_INSTALLATION_NAME=jdk1.6.0_15
+JDK_HOME=C\:\\Program Files\\Java\\jdk1.6.0_15
+SERVER_ENABLEMENT=true

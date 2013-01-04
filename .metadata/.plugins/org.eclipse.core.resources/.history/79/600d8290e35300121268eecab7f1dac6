@@ -1,0 +1,11 @@
+package project.com.model;
+
+public class User {
+	private int id, age, usertype, validated;
+	private String username, gender;
+	
+	public User(){}
+	public User(int id, int age, int usertype, int validated, String username, String gender) {
+		
+	}
+}

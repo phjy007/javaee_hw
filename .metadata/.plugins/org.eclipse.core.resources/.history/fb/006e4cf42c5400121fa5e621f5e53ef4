@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>FirstServlet</servlet-name>
+  <servlet-class>lab01.com.servlet.FirstServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetPostData</servlet-name>
+  <servlet-class>lab01.com.servlet.GetPostData</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>SetSession</servlet-name>
+  <servlet-class>common.SetSession</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ReadScode</servlet-name>
+  <servlet-class>common.ReadScode</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>Control</servlet-name>
+  <servlet-class>lab03.com.servlet.shopping.Control</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>GuessNumber</display-name>
+  <servlet-name>GuessNumberControl</servlet-name>
+  <servlet-class>lab03.fm.action.Control</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>control</display-name>
+  <servlet-name>client_action</servlet-name>
+  <servlet-class>lab04.fm.action.Control</servlet-class>
+ </servlet>
+ <servlet>
+  <description>loginServlet</description>
+  <display-name>loginServlet</display-name>
+  <servlet-name>loginServlet</servlet-name>
+  <servlet-class>project.com.control.loginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>FirstServlet</servlet-name>
+  <url-pattern>/lab01/first</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetPostData</servlet-name>
+  <url-pattern>/lab01/getpostdata</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>SetSession</servlet-name>
+  <url-pattern>/SetSession</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ReadScode</servlet-name>
+  <url-pattern>/ReadScode</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>Control</servlet-name>
+  <url-pattern>/servlet/Control</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GuessNumberControl</servlet-name>
+  <url-pattern>/lab03/guessnum</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>client_action</servlet-name>
+  <url-pattern>/lab04/control</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/project/loginServlet</url-pattern>
+ </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

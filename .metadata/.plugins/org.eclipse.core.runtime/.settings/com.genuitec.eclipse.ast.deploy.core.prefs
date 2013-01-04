@@ -1,12 +1,22 @@
-#Thu Nov 15 22:19:20 CST 2012
-myeclipseTomcatServer.javaweb.deployIsOverProject=false
-myeclipseTomcatServer.javaweb.earProjectName=
-myeclipseTomcatServer.javaweb.shouldBackup=false
-myeclipseTomcatServer.javaweb.isExploded=true
-myeclipseTomcatServer.javaweb.contextRoot=/javaweb
-myeclipseTomcatServer.javaweb.isUptoDate=true
-myeclipseTomcatServer.javaweb.isDeployed=true
-eclipse.preferences.version=1
+#Fri Dec 28 06:51:15 CST 2012
 myeclipseTomcatServer.javaweb.type=WebDeployment
-myeclipseTomcatServer.javaweb.shouldOverwrite=false
+tomcat6Server.javaweb.deploymentPath=E\:\\Stduy\\Web Java EE\\JavaEE\\tomcat\\webapps\\javaweb
+myeclipseTomcatServer.javaweb.earProjectName=
+tomcat6Server.javaweb.isUptoDate=true
 myeclipseTomcatServer.javaweb.deploymentPath=E\:\\stduy\\Web\u8F6F\u4EF6\u5F00\u53D1\u6280\u672F\\JavaEE\\workspace\\.metadata\\.plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse\\tomcat\\webapps\\javaweb
+myeclipseTomcatServer.javaweb.deployIsOverProject=false
+myeclipseTomcatServer.javaweb.isUptoDate=true
+tomcat6Server.javaweb.isExploded=true
+eclipse.preferences.version=1
+tomcat6Server.javaweb.shouldOverwrite=false
+myeclipseTomcatServer.javaweb.isExploded=true
+tomcat6Server.javaweb.earProjectName=
+tomcat6Server.javaweb.shouldBackup=false
+tomcat6Server.javaweb.deployIsOverProject=false
+tomcat6Server.javaweb.contextRoot=/javaweb
+myeclipseTomcatServer.javaweb.shouldOverwrite=false
+tomcat6Server.javaweb.isDeployed=true
+myeclipseTomcatServer.javaweb.contextRoot=/javaweb
+myeclipseTomcatServer.javaweb.shouldBackup=false
+myeclipseTomcatServer.javaweb.isDeployed=true
+tomcat6Server.javaweb.type=WebDeployment

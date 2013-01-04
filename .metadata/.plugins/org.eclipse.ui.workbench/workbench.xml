@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="250" y="250">
+<window height="1038" width="1499" x="281" y="1">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -26,6 +26,12 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.javascript.JSMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -37,7 +43,6 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="8"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
@@ -46,53 +51,165 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
 <part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="calc.jsp_" partName="calc.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/calc.jsp_" title="calc.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/calc.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/calc.jsp_"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Experiment.java" partName="Experiment.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/model/Experiment.java" title="Experiment.java" tooltip="javaweb/src/project/com/model/Experiment.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/model/Experiment.java"/>
+<editorState selectionHPixel="0" selectionLength="14" selectionOffset="1037"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="calculate_result.jsp_" partName="calculate_result.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/calculate_result.jsp_" title="calculate_result.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/calculate_result.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/calculate_result.jsp_"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlConn.java" partName="SqlConn.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/service/SqlConn.java" title="SqlConn.java" tooltip="javaweb/src/project/com/service/SqlConn.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/service/SqlConn.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1047"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="calculate.jsp_" partName="calculate.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/calculate.jsp_" title="calculate.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/calculate.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/calculate.jsp_"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" partName="login.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/login.jsp" title="login.jsp" tooltip="javaweb/WebRoot/project/login.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/login.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="exam.jsp_" partName="exam.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/exam.jsp_" title="exam.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/exam.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/exam.jsp_"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="loginServlet.java" partName="loginServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/loginServlet.java" title="loginServlet.java" tooltip="javaweb/src/project/com/control/loginServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/loginServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="4384"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="input.jsp_" partName="input.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/input.jsp_" title="input.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/input.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/input.jsp_"/>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/static/plugin/style.css" title="style.css" tooltip="javaweb/WebRoot/project/static/plugin/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/static/plugin/style.css"/>
+<editorState selectionHPixel="0" selectionLength="18" selectionOffset="48"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="output.jsp_" partName="output.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/output.jsp_" title="output.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/output.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/output.jsp_"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="addExperimentServlet.java" partName="addExperimentServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/addExperimentServlet.java" title="addExperimentServlet.java" tooltip="javaweb/src/project/com/control/addExperimentServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/addExperimentServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="4136"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="result.jsp_" partName="result.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/result.jsp_" title="result.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/result.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/result.jsp_"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="showExperiment.jsp" partName="showExperiment.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/showExperiment.jsp" title="showExperiment.jsp" tooltip="javaweb/WebRoot/project/showExperiment.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/showExperiment.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="travel.jsp_" partName="travel.jsp_" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/scode/web/lab02/travel.jsp_" title="travel.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/travel.jsp_" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/scode/web/lab02/travel.jsp_"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="delExperimentServlet.java" partName="delExperimentServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/delExperimentServlet.java" title="delExperimentServlet.java" tooltip="javaweb/src/project/com/control/delExperimentServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/delExperimentServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1532"/>
 </editor>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/WebRoot/index.jsp" title="index.jsp" tooltip="javaweb/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/index.jsp" title="index.jsp" tooltip="javaweb/WebRoot/project/index.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/index.jsp"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="updateExperimentServlet.java" partName="updateExperimentServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/updateExperimentServlet.java" title="updateExperimentServlet.java" tooltip="javaweb/src/project/com/control/updateExperimentServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/updateExperimentServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="4112"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="showCourseTable.jsp" partName="showCourseTable.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/showCourseTable.jsp" title="showCourseTable.jsp" tooltip="javaweb/WebRoot/project/showCourseTable.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/showCourseTable.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="ShowOneExperiment.jsp" partName="ShowOneExperiment.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/ShowOneExperiment.jsp" title="ShowOneExperiment.jsp" tooltip="javaweb/WebRoot/project/ShowOneExperiment.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/ShowOneExperiment.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="showUnauthorizedUser.jsp" partName="showUnauthorizedUser.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/showUnauthorizedUser.jsp" title="showUnauthorizedUser.jsp" tooltip="javaweb/WebRoot/project/showUnauthorizedUser.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/showUnauthorizedUser.jsp"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="approveUnauthorizedUserServlet.java" partName="approveUnauthorizedUserServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/approveUnauthorizedUserServlet.java" title="approveUnauthorizedUserServlet.java" tooltip="javaweb/src/project/com/control/approveUnauthorizedUserServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/approveUnauthorizedUserServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1534"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="delUnauthorizedUserServlet.java" partName="delUnauthorizedUserServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/delUnauthorizedUserServlet.java" title="delUnauthorizedUserServlet.java" tooltip="javaweb/src/project/com/control/delUnauthorizedUserServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/delUnauthorizedUserServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1259"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/model/User.java" title="User.java" tooltip="javaweb/src/project/com/model/User.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/model/User.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="522"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="profile.jsp" partName="profile.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/profile.jsp" title="profile.jsp" tooltip="javaweb/WebRoot/project/profile.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/profile.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="editExperiment.jsp" partName="editExperiment.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/editExperiment.jsp" title="editExperiment.jsp" tooltip="javaweb/WebRoot/project/editExperiment.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/editExperiment.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="register.jsp" partName="register.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/register.jsp" title="register.jsp" tooltip="javaweb/WebRoot/project/register.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/register.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="search_experiment_result.jsp" partName="search_experiment_result.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/search_experiment_result.jsp" title="search_experiment_result.jsp" tooltip="javaweb/WebRoot/project/search_experiment_result.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/search_experiment_result.jsp"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="searchExperimentServlet.java" partName="searchExperimentServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/searchExperimentServlet.java" title="searchExperimentServlet.java" tooltip="javaweb/src/project/com/control/searchExperimentServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/searchExperimentServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2038"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="search_experiment_result_table.jsp" partName="search_experiment_result_table.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/search_experiment_result_table.jsp" title="search_experiment_result_table.jsp" tooltip="javaweb/WebRoot/project/search_experiment_result_table.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/search_experiment_result_table.jsp"/>
+</editor>
+<editor id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" partName="web.xml" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/WEB-INF/web.xml" title="web.xml" tooltip="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/javaweb/WebRoot/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="refreshExperiment.java" partName="refreshExperiment.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/refreshExperiment.java" title="refreshExperiment.java" tooltip="javaweb/src/project/com/control/refreshExperiment.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/refreshExperiment.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2115"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="showCourse.jsp" partName="showCourse.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/showCourse.jsp" title="showCourse.jsp" tooltip="javaweb/WebRoot/project/showCourse.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/showCourse.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="auditNewUser.jsp" partName="auditNewUser.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/auditNewUser.jsp" title="auditNewUser.jsp" tooltip="javaweb/WebRoot/project/auditNewUser.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/auditNewUser.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="addExperiment.jsp" partName="addExperiment.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/addExperiment.jsp" title="addExperiment.jsp" tooltip="javaweb/WebRoot/project/addExperiment.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/addExperiment.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="addCourse.jsp" partName="addCourse.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/addCourse.jsp" title="addCourse.jsp" tooltip="javaweb/WebRoot/project/addCourse.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/addCourse.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="top.jsp" partName="top.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/project/top.jsp" title="top.jsp" tooltip="javaweb/WebRoot/project/top.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/project/top.jsp"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="addCourseServlet.java" partName="addCourseServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/addCourseServlet.java" title="addCourseServlet.java" tooltip="javaweb/src/project/com/control/addCourseServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/addCourseServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2862"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="delCourseServlet.java" partName="delCourseServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/delCourseServlet.java" title="delCourseServlet.java" tooltip="javaweb/src/project/com/control/delCourseServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/delCourseServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1494"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="profileUpdateServlet.java" partName="profileUpdateServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/profileUpdateServlet.java" title="profileUpdateServlet.java" tooltip="javaweb/src/project/com/control/profileUpdateServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/profileUpdateServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="3267"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="registerServlet.java" partName="registerServlet.java" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/src/project/com/control/registerServlet.java" title="registerServlet.java" tooltip="javaweb/src/project/com/control/registerServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/project/com/control/registerServlet.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="E:/Stduy/Web Java EE/JavaEE/workspace/javaweb/WebRoot/index.jsp" title="index.jsp" tooltip="javaweb/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/WebRoot/index.jsp"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReadScode.java" partName="ReadScode.java" path="E:/stduy/Web软件开发技术/JavaEE/workspace/javaweb/src/common/ReadScode.java" title="ReadScode.java" tooltip="javaweb/src/common/ReadScode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaweb/src/common/ReadScode.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2170"/>
 </editor>
 </editors>
 <views>
 <view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser"/>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
-<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
 <viewState/>
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
@@ -232,10 +349,6 @@
 <perspective_action id="com.genuitec.eclipse.web20.perspective"/>
 <perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
 <perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<view id="uky.article.imageviewer.views.ImageView"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
@@ -243,6 +356,10 @@
 <view id="com.genuitec.eclipse.ui.HTMLView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="uky.article.imageviewer.views.ImageView"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -259,8 +376,8 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.16448402" ratioLeft="314" ratioRight="1595" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b8737f" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.26113206" ratioLeft="346" ratioRight="979" relationship="2" relative="cvslocation"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b8737f" ratio="0.8421525" ratioLeft="939" ratioRight="176" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
@@ -276,7 +393,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7492877" ratioLeft="526" ratioRight="176" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7508039" ratioLeft="467" ratioRight="155" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -305,7 +422,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomleft" ratio="0.54985756" ratioLeft="386" ratioRight="316" relationship="4" relative="topleft">
+<info folder="true" part="bottomleft" ratio="0.8649518" ratioLeft="538" ratioRight="84" relationship="4" relative="topleft">
 <folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
 <page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
@@ -322,91 +439,127 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calculate.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/input.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/calc.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/calculate_result.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/calculate.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/exam.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/output.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/result.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/lab02/travel.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calc.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calculate_result.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calculate.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/exam.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/input.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/output.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/result.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/travel.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/index.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/common/ReadScode.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calc.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calculate_result.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/calculate.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/exam.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/input.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/output.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/result.jsp_"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/scode/web/lab02/travel.jsp_"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/showExperiment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/ShowOneExperiment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/refreshExperiment.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/showCourse.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/auditNewUser.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/addExperiment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/addCourse.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/editExperiment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/showUnauthorizedUser.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/showCourseTable.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/search_experiment_result_table.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/search_experiment_result.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/profile.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/javaweb/WebRoot/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/editExperiment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/addCourseServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/addExperimentServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/approveUnauthorizedUserServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/delCourseServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/delExperimentServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/delUnauthorizedUserServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/loginServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/profileUpdateServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/refreshExperiment.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/registerServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/searchExperimentServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaweb/src/project/com/control/updateExperimentServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/register.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/top.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/addExperiment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/addCourse.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/project/showExperiment.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javaweb/WebRoot/index.jsp"/>
 </editors>
-<item historyLabel="calculate.jsp" index="0"/>
-<item historyLabel="input.jsp" index="1">
+<item historyLabel="refreshExperiment.java" index="3">
+<position info="not_deleted" x="2106" y="27"/>
+</item>
+<item historyLabel="showCourseTable.jsp" index="10"/>
+<item historyLabel="refreshExperiment.java" index="3">
+<position info="not_deleted" x="2115" y="0"/>
+</item>
+<item historyLabel="showCourseTable.jsp" index="10"/>
+<item historyLabel="showExperiment.jsp" index="1"/>
+<item historyLabel="showCourseTable.jsp" index="10"/>
+<item historyLabel="showExperiment.jsp" index="1"/>
+<item historyLabel="showCourseTable.jsp" index="10"/>
+<item historyLabel="showExperiment.jsp" index="1"/>
+<item historyLabel="showCourseTable.jsp" index="10"/>
+<item historyLabel="index.jsp" index="0"/>
+<item historyLabel="addCourse.jsp" index="7"/>
+<item historyLabel="addExperiment.jsp" index="6"/>
+<item historyLabel="auditNewUser.jsp" index="5"/>
+<item historyLabel="editExperiment.jsp" index="8"/>
+<item historyLabel="index.jsp" index="0"/>
+<item historyLabel="profile.jsp" index="13"/>
+<item historyLabel="search_experiment_result_table.jsp" index="11"/>
+<item historyLabel="search_experiment_result.jsp" index="12"/>
+<item historyLabel="showCourse.jsp" index="4"/>
+<item historyLabel="showExperiment.jsp" index="1"/>
+<item historyLabel="ShowOneExperiment.jsp" index="2"/>
+<item historyLabel="showUnauthorizedUser.jsp" index="9"/>
+<item historyLabel="web.xml" index="14"/>
+<item historyLabel="editExperiment.jsp" index="15"/>
+<item historyLabel="addCourseServlet.java" index="16">
 <position/>
 </item>
-<item historyLabel="calc.jsp" index="2">
+<item historyLabel="addExperimentServlet.java" index="17">
+<position info="not_deleted" x="3463" y="0"/>
+</item>
+<item historyLabel="approveUnauthorizedUserServlet.java" index="18">
+<position info="not_deleted" x="1534" y="0"/>
+</item>
+<item historyLabel="delCourseServlet.java" index="19">
 <position/>
 </item>
-<item historyLabel="calculate_result.jsp" index="3">
+<item historyLabel="delExperimentServlet.java" index="20">
+<position info="not_deleted" x="1166" y="369"/>
+</item>
+<item historyLabel="delUnauthorizedUserServlet.java" index="21">
+<position info="not_deleted" x="1259" y="0"/>
+</item>
+<item historyLabel="loginServlet.java" index="22">
+<position info="not_deleted" x="4384" y="0"/>
+</item>
+<item historyLabel="profileUpdateServlet.java" index="23">
 <position/>
 </item>
-<item historyLabel="calculate.jsp" index="4">
+<item historyLabel="refreshExperiment.java" index="24">
+<position info="not_deleted" x="2115" y="0"/>
+</item>
+<item historyLabel="registerServlet.java" index="25">
 <position/>
 </item>
-<item historyLabel="exam.jsp" index="5">
-<position/>
-</item>
-<item historyLabel="input.jsp" index="1"/>
-<item historyLabel="output.jsp" index="6">
-<position/>
-</item>
-<item historyLabel="result.jsp" index="7">
-<position/>
-</item>
-<item historyLabel="travel.jsp" index="8">
-<position info="not_deleted" x="836" y="0"/>
-</item>
-<item historyLabel="calc.jsp" index="2"/>
-<item historyLabel="travel.jsp" index="8"/>
-<item historyLabel="exam.jsp" index="5"/>
-<item historyLabel="calc.jsp" index="9"/>
-<item historyLabel="calculate_result.jsp" index="10"/>
-<item historyLabel="calculate.jsp" index="11"/>
-<item historyLabel="exam.jsp" index="12"/>
-<item historyLabel="input.jsp" index="13"/>
-<item historyLabel="output.jsp" index="14"/>
-<item historyLabel="result.jsp" index="15"/>
-<item historyLabel="travel.jsp" index="16"/>
-<item historyLabel="index.jsp" index="17"/>
-<item historyLabel="ReadScode.java" index="18">
+<item historyLabel="searchExperimentServlet.java" index="26">
 <position info="not_deleted" x="2038" y="0"/>
 </item>
-<item historyLabel="ReadScode.java" index="18">
-<position info="not_deleted" x="2170" y="0"/>
+<item historyLabel="updateExperimentServlet.java" index="27">
+<position info="not_deleted" x="4126" y="0"/>
 </item>
-<item historyLabel="calc.jsp_" index="19"/>
-<item historyLabel="calculate_result.jsp_" index="20"/>
-<item historyLabel="calculate.jsp_" index="21"/>
-<item historyLabel="exam.jsp_" index="22"/>
-<item historyLabel="input.jsp_" index="23"/>
-<item historyLabel="output.jsp_" index="24"/>
-<item historyLabel="result.jsp_" index="25"/>
-<item historyLabel="travel.jsp_" index="26"/>
-<item historyLabel="ReadScode.java" index="18">
-<position info="not_deleted" x="2170" y="0"/>
+<item historyLabel="addExperimentServlet.java" index="17">
+<position info="not_deleted" x="4136" y="0"/>
 </item>
-<item active="true" historyLabel="index.jsp" index="27"/>
+<item historyLabel="addCourseServlet.java" index="16">
+<position info="not_deleted" x="2862" y="0"/>
+</item>
+<item historyLabel="updateExperimentServlet.java" index="27">
+<position info="not_deleted" x="4126" y="0"/>
+</item>
+<item historyLabel="register.jsp" index="28"/>
+<item historyLabel="login.jsp" index="29"/>
+<item historyLabel="top.jsp" index="30"/>
+<item historyLabel="login.jsp" index="29"/>
+<item historyLabel="top.jsp" index="30"/>
+<item historyLabel="addExperiment.jsp" index="31"/>
+<item historyLabel="addCourse.jsp" index="32"/>
+<item historyLabel="index.jsp" index="33"/>
+<item historyLabel="showExperiment.jsp" index="34"/>
+<item active="true" historyLabel="index.jsp" index="35"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -424,50 +577,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="calc.jsp_" tooltip="javaweb/WebRoot/scode/web/lab02/calc.jsp_">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/calc.jsp_"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReadScode.java" tooltip="javaweb/src/common/ReadScode.java">
-<persistable path="/javaweb/src/common/ReadScode.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" tooltip="javaweb/WebRoot/index.jsp">
 <persistable path="/javaweb/WebRoot/index.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="travel.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/travel.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/travel.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="registerServlet.java" tooltip="javaweb/src/project/com/control/registerServlet.java">
+<persistable path="/javaweb/src/project/com/control/registerServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="result.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/result.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/result.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="profileUpdateServlet.java" tooltip="javaweb/src/project/com/control/profileUpdateServlet.java">
+<persistable path="/javaweb/src/project/com/control/profileUpdateServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="output.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/output.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/output.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="delCourseServlet.java" tooltip="javaweb/src/project/com/control/delCourseServlet.java">
+<persistable path="/javaweb/src/project/com/control/delCourseServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="input.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/input.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/input.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="addCourseServlet.java" tooltip="javaweb/src/project/com/control/addCourseServlet.java">
+<persistable path="/javaweb/src/project/com/control/addCourseServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="exam.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/exam.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/exam.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="top.jsp" tooltip="javaweb/WebRoot/project/top.jsp">
+<persistable path="/javaweb/WebRoot/project/top.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="calculate.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/calculate.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/calculate.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="addCourse.jsp" tooltip="javaweb/WebRoot/project/addCourse.jsp">
+<persistable path="/javaweb/WebRoot/project/addCourse.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="calculate_result.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/calculate_result.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/calculate_result.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="addExperiment.jsp" tooltip="javaweb/WebRoot/project/addExperiment.jsp">
+<persistable path="/javaweb/WebRoot/project/addExperiment.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="calc.jsp" tooltip="javaweb/WebRoot/scode/web/lab02/calc.jsp">
-<persistable path="/javaweb/WebRoot/scode/web/lab02/calc.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="auditNewUser.jsp" tooltip="javaweb/WebRoot/project/auditNewUser.jsp">
+<persistable path="/javaweb/WebRoot/project/auditNewUser.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="travel.jsp" tooltip="javaweb/WebRoot/lab02/travel.jsp">
-<persistable path="/javaweb/WebRoot/lab02/travel.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="showCourse.jsp" tooltip="javaweb/WebRoot/project/showCourse.jsp">
+<persistable path="/javaweb/WebRoot/project/showCourse.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="result.jsp" tooltip="javaweb/WebRoot/lab02/result.jsp">
-<persistable path="/javaweb/WebRoot/lab02/result.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="refreshExperiment.java" tooltip="javaweb/src/project/com/control/refreshExperiment.java">
+<persistable path="/javaweb/src/project/com/control/refreshExperiment.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="output.jsp" tooltip="javaweb/WebRoot/lab02/output.jsp">
-<persistable path="/javaweb/WebRoot/lab02/output.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="javaweb/WebRoot/WEB-INF/web.xml">
+<persistable path="/javaweb/WebRoot/WEB-INF/web.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="exam.jsp" tooltip="javaweb/WebRoot/lab02/exam.jsp">
-<persistable path="/javaweb/WebRoot/lab02/exam.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="logout.java" tooltip="javaweb/src/project/com/control/logout.java">
+<persistable path="/javaweb/src/project/com/control/logout.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="search_experiment_result_table.jsp" tooltip="javaweb/WebRoot/project/search_experiment_result_table.jsp">
+<persistable path="/javaweb/WebRoot/project/search_experiment_result_table.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="searchExperimentServlet.java" tooltip="javaweb/src/project/com/control/searchExperimentServlet.java">
+<persistable path="/javaweb/src/project/com/control/searchExperimentServlet.java"/>
 </file>
 </mruList>
 </workbench>

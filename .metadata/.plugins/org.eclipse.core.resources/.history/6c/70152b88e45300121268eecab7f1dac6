@@ -1,0 +1,11 @@
+package project.com.model;
+
+public class Experiment {
+	private int id, expcourse_id;
+	private String expcontent;
+	
+	public Experient() {}
+	public Experiment() {
+		
+	}
+}

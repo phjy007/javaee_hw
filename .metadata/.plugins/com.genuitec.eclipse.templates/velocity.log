@@ -1,0 +1,56 @@
+Wed Jan 02 00:08:52 CST 2013  [debug] AvalonLogSystem initialized using logfile 'E:\Stduy\Web Java EE\JavaEE\workspace\.metadata\.plugins\com.genuitec.eclipse.templates\velocity.log'
+Wed Jan 02 00:08:52 CST 2013   [info] ************************************************************** 
+Wed Jan 02 00:08:52 CST 2013   [info] Starting Jakarta Velocity v1.4
+Wed Jan 02 00:08:52 CST 2013   [info] RuntimeInstance initializing.
+Wed Jan 02 00:08:52 CST 2013   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Wed Jan 02 00:08:52 CST 2013   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Wed Jan 02 00:08:52 CST 2013   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Wed Jan 02 00:08:52 CST 2013   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Wed Jan 02 00:08:52 CST 2013   [info] Resource Loader Instantiated: com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:08:52 CST 2013   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Wed Jan 02 00:08:52 CST 2013   [info] Default ResourceManager initialization complete.
+Wed Jan 02 00:08:52 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Wed Jan 02 00:08:52 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Wed Jan 02 00:08:52 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Wed Jan 02 00:08:52 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Wed Jan 02 00:08:52 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Wed Jan 02 00:08:52 CST 2013   [info] Created: 20 parsers.
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : initialization starting.
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Wed Jan 02 00:08:52 CST 2013   [info] ResourceManager : found VM_global_library.vm with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : allowInlineToOverride = true : VMs defined inline may replace previous VM definitions
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : allowInlineLocal = true : VMs defined inline will be local to their defining template only.
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : messages on  : VM system will output logging messages
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Wed Jan 02 00:08:52 CST 2013   [info] Velocimacro : initialization complete.
+Wed Jan 02 00:08:52 CST 2013   [info] Velocity successfully started.
+Wed Jan 02 00:08:52 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:08:52 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:12:01 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:12:01 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:19:05 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 00:19:05 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 12:36:37 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 12:36:37 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 14:39:16 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 14:39:16 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 14:44:19 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 14:44:19 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 14:56:15 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 14:56:15 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 17:17:12 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 17:17:12 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 17:19:49 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 17:19:49 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 17:32:08 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 17:32:08 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 18:16:04 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 18:16:04 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 18:18:02 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 18:18:02 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 18:59:57 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 18:59:57 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 19:38:30 CST 2013   [info] ResourceManager : found templates/jsp/Jsp.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader
+Wed Jan 02 19:38:30 CST 2013   [info] ResourceManager : found templates/jsp/JSPMetaTags.vtl with loader com.genuitec.eclipse.templates.internal.PluginResourceLoader

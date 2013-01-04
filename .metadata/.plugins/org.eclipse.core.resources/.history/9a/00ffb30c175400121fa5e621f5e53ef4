@@ -1,0 +1,12 @@
+#login_title {
+	font-size: 26px;
+}
+#login_main, .msg-error{
+	width: 600px;
+}
+#login_submit {
+	background: blue;
+}
+ {
+	width: 620px;
+}

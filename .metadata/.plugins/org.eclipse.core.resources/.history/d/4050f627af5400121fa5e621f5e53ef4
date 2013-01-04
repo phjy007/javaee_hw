@@ -1,0 +1,87 @@
+<%@ page language="java" import="java.util.*,project.com.model.*,project.com.service.*;" pageEncoding="gb2312"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<%
+	SqlConn sqlbean = new SqlConn();
+	Integer usertype = (Integer)session.getAttribute("usertype");
+	Integer userid = (Integer)session.getAttribute("userid");
+%>
+<!-- Main -->
+		<div id="main">
+			<div class="cl">&nbsp;</div>
+			
+			<!-- Content -->
+			<div id="content">
+				
+				<!-- Box -->
+				<div class="box">
+					<!-- Box Head -->
+					<div class="box-head">
+						<h2 class="left">课程列表</h2>
+						<div class="right">
+							<label>搜索课程</label>
+							<input type="text" class="field small-field" />
+							<input type="submit" class="button" value="搜索" />
+						</div>
+					</div>
+					<!-- End Box Head -->	
+
+					<!-- Table -->
+					<div class="table">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<th>编号</th>
+								<th>课程名称</th>
+								<th>操作选项</th>
+							</tr>
+							<% String getAllCourses = "select * from javaee_pj_course";
+								ArrayList<Course> courses = sqlbean.allCourses(getAllCourses);
+								for(Course c : courses) {%>
+								<tr>
+									<td><%=c.getId()%></td>
+									<td><%=c.getCoursename() %></td>
+									<%if(usertype == 1) {%>
+									<td><a href="./project/delExperimentServlet?id=<%=c.getId() %>" class="ico del">Delete</a>
+										<a href="./project/editExperiment.jsp?id=<%=c.getId() %>" class="ico edit">Edit</a>
+									</td>
+									<%} else {%>
+									 <td> - 无 - </td>
+									<%} %>
+									
+								</tr>
+							<%} %>						
+						</table>
+						
+						
+						<!-- Pagging -->
+						<div class="pagging">
+							<div class="left">
+							<%if(usertype == 1) {%>
+							<a href="./project/addExperiment.jsp">(+添加实验)</a>
+							<%} %>
+							&nbsp&nbsp&nbsp显示 1-12 of 44</div>
+							<div class="right">
+								<a href="#">前页</a>
+								<a href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">245</a>
+								<span>...</span>
+								<a href="#">后页</a>
+							</div>
+						</div>
+						<!-- End Pagging -->
+						
+					</div>
+					<!-- Table -->
+					
+				</div>
+				<!-- End Box -->
+				
+			
+			<div class="cl">&nbsp;</div>			
+		</div>
+		<!-- Main -->

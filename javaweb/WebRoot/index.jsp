@@ -151,6 +151,51 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<td><a href="./ReadScode?lab=lab03&file=MyCart.java">MyCart.java</a></td>
 	</tr>
 	
+	
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">第四次实验</td></tr>
+	<tr>
+		<td><a href="./lab04/jstl_query.jsp">查询数据库(SQL JSTL)</a></td>
+		<td><a href="./ReadScode?lab=lab04&file=jstl_query.jsp">jstl_query.jsp</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab04/input.jsp">学生信息查询（模糊查询）</a></td>
+		<td><a href="./ReadScode?lab=lab04&file=input.jsp">input.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab04&file=query.jsp">query.jsp</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab04/show.jsp">客户信息管理系统</a></td>
+		<td><a href="./ReadScode?lab=lab04&file=show.jsp">show.jsp</a></td>
+	</tr>
+	<tr><td>表现层</td>
+		<td><a href="./ReadScode?lab=lab04&file=add_client.jsp">add_client.jsp</a></td>
+	</tr>
+	<tr><td>表现层</td>
+		<td><a href="./ReadScode?lab=lab04&file=modify_client.jsp">modify_client.jsp</a></td>
+	</tr>
+	<tr><td>表现层</td>
+		<td><a href="./ReadScode?lab=lab04&file=add_client.jsp">add_client.jsp</a></td>
+	</tr>
+	<tr><td>模型层</td>
+		<td><a href="./ReadScode?lab=lab04&file=Client.java">Client.java</a></td>
+	</tr>
+	<tr><td>控制层</td>
+		<td><a href="./ReadScode?lab=lab04&file=Control.java">Control.java</a></td>
+	</tr>
+	<tr><td>数据库连接</td>
+		<td><a href="./ReadScode?lab=lab04&file=SqlConn.java">SqlConnection.java</a></td>
+	</tr>
+	
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">期末大作业</td></tr>
+	<tr>
+		<td><a href="./project/login.jsp">教学实验内容管理系统</a></td>
+		<td><a href="./project/static/12212010024doc.pdf">查看文档报告</a></td>
+	</tr>
+	<tr><td>测试账号+密码</td>
+		<td>系统管理员：admin admin<br>教师：cm cm<br>学生:xs xs</td>
+	</tr>
+	
 	</table>
   </form>
   	

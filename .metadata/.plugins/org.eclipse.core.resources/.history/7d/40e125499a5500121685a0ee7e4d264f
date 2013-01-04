@@ -1,0 +1,203 @@
+<%@ page language="java" import="java.util.*" pageEncoding="GB2312"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>首页：岳佳圆12212010024</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+	<style type="text/css">
+		.wrapper {
+			width:250px;
+			//border: 1px solid;
+		}
+		.exp_tilte {
+			//text-align:left;
+			color: #0066FF;
+			font-size: 22px;
+		}
+		.source_title {
+		text-align:left;
+			color:  #1A94E6;
+			font-size: 18px;
+		}
+	</style>
+  </head>
+  
+  <body>
+    <CENTER><FONT SIZE="6"><B>岳佳圆</B></FONT><FONT SIZE="3"><B>(12212010024)</B></FONT></CENTER><br>
+  	<%
+  		String username = (String)session.getAttribute("username");
+  		if("jw1201024".equals(username)) {
+  	%>
+  	<div class="login_logout" align="center" style="font-size:12px; margin-bottom:5px;">
+  		您已登录，按这里<a href="./logout.jsp">退出</a>
+  	</div>
+  		
+  	<%
+  		} else {
+  	%>
+  	<div class="login_logout" align="center" style="font-size:12px; margin-bottom:5px;">
+  		请<a href="./login.jsp">登录</a>查看源代码
+  	</div>
+  	<%
+  	    }
+  	%>
+  	<form method=post action="">
+	<table align="center" border="1" bordercolorlight="#ccaaff" cellpadding="2" bordercolordark="#ffffff" cellspacing="0"> 
+	<tr bgcolor="#CCE0FF"><td align="center" width="200px">程序名</td><td align="center" width="200px">源代码</td></tr>
+	<tr><td class="cap" colspan="2"  align="center" style="background-color:#FFEEEE">第一次实验</td></tr>	
+	<tr>
+		<td><a href="./lab01/first">FirstServlet</a></td>
+		<td><a href="./ReadScode?lab=lab01&file=FirstServlet.java">FirstServlet.java</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab01/login.html">Login</a></td>
+		<td><a href="./ReadScode?lab=lab01&file=login.html">Login.html</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab01&file=GetPostData.java">GetPostData.java</a></td>
+	</tr>
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">第二次实验</td></tr>
+	<tr>
+		<td><a href="./lab02/input.jsp">计算立方</a></td>
+		<td><a href="./ReadScode?lab=lab02&file=input.jsp">input.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab02&file=calculate.jsp">calculate.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab02&file=output.jsp">output.jsp</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab02/exam.jsp">在线小测试</a></td>
+		<td><a href="./ReadScode?lab=lab02&file=exam.jsp">exam.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab02&file=result.jsp">result.jsp</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab02/calc.jsp">简单计算器</a></td>
+		<td><a href="./ReadScode?lab=lab02&file=calc.jsp">calc.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab02&file=calculate_result.jsp">calculate_result.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab02&file=CalcBean.java">CalcBean.java</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab02/travel.jsp">旅游费用查询</a></td>
+		<td><a href="./ReadScode?lab=lab02&file=travel.jsp">travel.jsp</a></td>
+	</tr>
+	
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">第三次实验</td></tr>
+	<tr>
+		<td><a href="./lab03/input.jsp">阿拉伯数字转换器</a></td>
+		<td><a href="./ReadScode?lab=lab03&file=input.jsp">input.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=convert.jsp">convert.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Convert.java">Convert.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=convertTag.tld">convertTag.tld</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab03/guessnum.jsp">猜数字</a></td>
+		<td><a href="./ReadScode?lab=lab03&file=guessnum.jsp">guessnum.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Control.java">Control.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Guessnum.java">Guessnum.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=answer_judge.jsp">answer_judge.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=MVC Design Report.txt">MVC设计文档.txt</a></td>
+	</tr>
+	
+	<tr>
+		<td><a href="./lab03/ShoppingIndex.jsp">购物车</a></td>
+		<td><a href="./ReadScode?lab=lab03&file=ShoppingIndex.jsp">ShoppingIndex.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=MyCart.jsp">MyCart.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=Settlement.jsp">Settlement.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=goodsItem.java">goodsItem.java</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab03&file=MyCart.java">MyCart.java</a></td>
+	</tr>
+	
+	
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">第四次实验</td></tr>
+	<tr>
+		<td><a href="./lab04/jstl_query.jsp">查询数据库(SQL JSTL)</a></td>
+		<td><a href="./ReadScode?lab=lab04&file=jstl_query.jsp">jstl_query.jsp</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab04/input.jsp">学生信息查询（模糊查询）</a></td>
+		<td><a href="./ReadScode?lab=lab04&file=input.jsp">input.jsp</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab04&file=query.jsp">query.jsp</a></td>
+	</tr>
+	<tr>
+		<td><a href="./lab04/show.jsp">客户信息管理系统</a></td>
+		<td><a href="./ReadScode?lab=lab04&file=show.jsp">show.jsp</a></td>
+	</tr>
+	<tr><td>表现层</td>
+		<td><a href="./ReadScode?lab=lab04&file=add_client.jsp">add_client.jsp</a></td>
+	</tr>
+	<tr><td>表现层</td>
+		<td><a href="./ReadScode?lab=lab04&file=modify_client.jsp">modify_client.jsp</a></td>
+	</tr>
+	<tr><td>表现层</td>
+		<td><a href="./ReadScode?lab=lab04&file=add_client.jsp">add_client.jsp</a></td>
+	</tr>
+	<tr><td>模型层</td>
+		<td><a href="./ReadScode?lab=lab04&file=Client.java">Client.java</a></td>
+	</tr>
+	<tr><td>控制层</td>
+		<td><a href="./ReadScode?lab=lab04&file=Control.java">Control.java</a></td>
+	</tr>
+	<tr><td>数据库连接</td>
+		<td><a href="./ReadScode?lab=lab04&file=SqlConn.java">SqlConnection.java</a></td>
+	</tr>
+	
+	<tr><td class="cap" colspan="2" align="center" style="background-color:#FFEEEE">期末大作业</td></tr>
+	<tr>
+		<td><a href="./project/login.jsp">教学实验内容管理系统</a></td>
+		<td><a href="./project/static/12212010024doc.pdf">查看文档报告</a></td>
+	</tr>
+	<tr><td>&nbsp;</td>
+		<td><a href="./ReadScode?lab=lab02&file=calculate.jsp">calculate.jsp</a></td>
+	</tr>
+	
+	</table>
+  </form>
+  	
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=GB2312"
+    pageEncoding="GB2312" import="java.util.ArrayList,lab04.fm.service.*;"%>
+<jsp:useBean id="sqlbean" scope="session" class="lab04.fm.service.SqlConn" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<title>客户信息表</title>
+</head>
+<body>
+	<h2>客户信息表</h2>
+	<table border="1">
+	<tr><td>序号</td><td>姓名</td><td>电话</td><td>手机号码</td><td>地址</td><td>修改|删除</td></tr>
+	<%
+		String sql = "select * from client";
+		ArrayList<Client> clients = sqlbean.list(sql);
+		for(Client c:clients){%>
+		<tr>
+			<td><%=c.getId() %></td>
+			<td><%=c.getName() %></td>
+			<td><%=c.getPhone() %></td>
+			<td><%=c.getMobile() %></td>
+			<td><%=c.getAddress() %></td>
+			<td>
+				<a href="./control?action=modify&id=<%=c.getId() %>">修改</a>|<a href="./control?action=delete&id=<%=c.getId() %>">删除</a>
+			</td>
+		</tr>
+		<%}%>
+	</table><br/>
+	<form action="./control">
+		<input type="hidden" name="action" value="add"/>
+		<button type="submit" onclick>添加</button>
+	</form>
+<div><a href="../">返回</a></div><br/>
+</body>
+</html>
